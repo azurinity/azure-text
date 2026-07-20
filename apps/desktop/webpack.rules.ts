@@ -28,4 +28,15 @@ export const rules: Required<ModuleOptions>['rules'] = [
       },
     },
   },
+  {
+    test: /\.(woff|woff2|eot|ttf|otf)$/i,
+    type: 'asset/resource',
+    generator: {
+      filename: 'assets/fonts/[name][ext]', // Outputs clean paths inside the build folder
+    },
+  },
+  {
+    test: /\.(png|jpe?g|gif|svg|webp)$/i,
+    type: 'asset/resource', // Tell Webpack 5 to emit these as external assets
+  },
 ];
