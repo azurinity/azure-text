@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+
+# pnpm
+.pnpm-store/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# environment
+.env
+.env.*
+
+# build
+dist/
+build/
+coverage/
+
+# caches
+.cache/
+.turbo/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Expo
+.expo/
+
+# Next.js
+.next/
+
+# Electron
+out/
+release/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+tooling/
+snapshots/
+test-snapshots/
+assets/

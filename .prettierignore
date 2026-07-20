@@ -1,0 +1,11 @@
+node_modules/
+.pnpm-store/
+.expo/
+.expo-shared/
+coverage/
+dist/
+web-build/
+*.tsbuildinfo
+pnpm-lock.yaml
+apps/*/android/
+apps/*/ios/

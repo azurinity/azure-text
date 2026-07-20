@@ -1,0 +1,12 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+nodeVersion: 24.16.0
+nodeLinker: 'hoisted'
+engineStrict: true
+allowBuilds:
+  electron-winstaller: true
+  esbuild: true
+
+blockExoticSubdeps: false
